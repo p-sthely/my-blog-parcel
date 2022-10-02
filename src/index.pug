@@ -4,10 +4,12 @@ block title
   title Bootstrap w/ Parcel - Accueil
 
 block content
+  .markdown
+    include:markdown-it ../content/index.md
   .card
-    h2.card__title: a(href="#") Lorem ipsum
+    h2.card__title: a(href="/src/pages/posts/lorem_ipsum.pug") Lorem ipsum
     p.card__meta 28 septembre 2022
-    a(href="#")
+    a(href="/src/pages/posts/lorem_ipsum.pug")
       img.card__image(src="/assets/images/laos-cuisine6035.jpg"
         alt="Cuisine laotienne")
     p.card__text.
