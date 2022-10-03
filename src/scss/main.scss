@@ -277,36 +277,36 @@ nav ul {
 */
 
 .markdown {
-	word-break: break-word;
+  word-break: break-word;
 
-	p {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		column-gap: 1.5rem;
-		row-gap: 1.5rem;
-		margin-top: 3rem;
-		margin-bottom: 3rem;
-		line-height: 2rem;
+  p {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    line-height: 2rem;
 
-		a {
-			text-decoration: underline;
-		}
+    a {
+      text-decoration: underline;
+    }
 
-		img {
-			min-width: 35%;
-			max-height: 500px;
-			object-fit: contain;
-			margin-left: auto;
-			margin-right: auto;
-		}
+    img {
+      min-width: 35%;
+      max-height: 500px;
+      object-fit: contain;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
-		@media (min-width: $breakpoint-medium) {
-			flex-direction: row;
-		}
-	}
+    @media (min-width: $breakpoint-medium) {
+      flex-direction: row;
+    }
+  }
 
-	ul, ol {
-		line-height: 2rem;
-	}
+  ul, ol {
+    line-height: 2rem;
+  }
 }
